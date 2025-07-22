@@ -1,0 +1,26 @@
+
+
+compile_commands.json
+CMakeUserPresets.json
+conan_provider.cmake
+conandata.yml
+
+## VS Code
+.cache/
+.history/
+build/
+debug/
+.kdev4/
+
+## Google Test
+googletest/
+
+## CLION
+.idea/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-minsizerel/
+cmake-build-relwithdebinfo/
+
+## QtCreator
+CMakeLists.txt.user

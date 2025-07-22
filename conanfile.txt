@@ -1,0 +1,52 @@
+[requires]
+fmt/11.2.0
+nlohmann_json/3.12.0
+sqlitecpp/3.3.2
+imgui/1.91.8
+# imgui/1.91.5
+opengl/system
+
+# https://github.com/getml/sqlgen
+#glew/2.2.0
+#glfw/3.3.8
+
+#sqlite3/3.46.1
+#sol2/3.3.1
+# catch2/3.6.0
+# docopt.cpp/0.6.3
+# glew/2.2.0
+# glaze/2.6.1
+# spdlog/1.12.0
+# glad/0.1.36 ## Broken package
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[layout]
+cmake_layout
+
+
+#[options]
+#pkg/imgui:with_sdl2=True
+#pkg/imgui:with_sdl2_backend=True
+#pkg/imgui:impl_sdl=2
+#pkg/imgui:impl_opengl3=False
+#pkg/imgui:impl_sdlrenderer2=True
+#pkg/imgui:fPIC=True          # Posición independiente (útil si usas PIC)
+#pkg/imgui:shared=False       # Si lo enlazas estáticamente (mejor control)
+#pkg/imgui:impl_sdl2=True     # Backend SDL2
+
+
+#[imports]
+#./misc/bindings, imgui_impl_glfw.cpp -> ../bindings
+#./misc/bindings, imgui_impl_opengl2.cpp -> ../bindings
+#./misc/bindings, imgui_impl_glfw.h -> ../bindings
+#./misc/bindings, imgui_impl_opengl2.h -> ../bindings
+
+#[options]
+#pkg/imgui:backend_sdl2=True
+#pkg/imgui:backend_opengl3=True
+#*:shared=True  ## Make Shared libs
+
+# openssl*:shared=True
